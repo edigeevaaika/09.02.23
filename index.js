@@ -54,10 +54,19 @@ rectangleArea(23,51);
       res = res + name[i] + " "
     }
     console.log(res);
-
-    let res2 = name.length -1;
-    for (){
-      res2 = res2 
-    }
-
+    let res2 = []
+    let dlina = name.length -1;
+    
+      while (dlina >= 0 ){
+        res2.push(name[dlina]);
+        dlina --
+      }
+      console.log(res2)
+      
+      let name3 = ["Aida","Bakyt","Joldosh"];
+      let result = 0;
+      for (let i = 0; i<  name3.length;i ++) {
+        result = result + name3[i].length;
+      }
+      console.log(result);
     
